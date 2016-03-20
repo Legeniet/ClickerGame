@@ -8,6 +8,9 @@
   <sprites name="sprites">
     <sprite>sprites\spr_click</sprite>
     <sprite>sprites\spr_building1</sprite>
+    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\spr_upgrade</sprite>
+    <sprite>sprites\spr_building2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_back</background>
@@ -17,6 +20,9 @@
     <object>objects\obj_click</object>
     <object>objects\obj_control</object>
     <object>objects\obj_building1</object>
+    <object>objects\obj_building1upgrade</object>
+    <object>objects\obj_building2</object>
+    <object>objects\obj_building2upgrade</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
