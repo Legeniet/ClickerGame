@@ -11,18 +11,33 @@
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\spr_upgrade</sprite>
     <sprite>sprites\spr_building2</sprite>
+    <sprite>sprites\spr_upgradeGrey</sprite>
+    <sprite>sprites\spr_upgradeSpec</sprite>
+    <sprite>sprites\spr_upgradeSpecGrey</sprite>
+    <sprite>sprites\spr_clickPressed</sprite>
+    <sprite>sprites\spr_manaUnit</sprite>
+    <sprite>sprites\spr_manaBar</sprite>
+    <sprite>sprites\spr_spell1</sprite>
+    <sprite>sprites\spr_spell1Grey</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_back</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\draw_text_outlined.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_click</object>
     <object>objects\obj_control</object>
     <object>objects\obj_building1</object>
     <object>objects\obj_building1upgrade</object>
+    <object>objects\obj_building1UpgrSpec1</object>
     <object>objects\obj_building2</object>
     <object>objects\obj_building2upgrade</object>
+    <object>objects\obj_manaBar</object>
+    <object>objects\obj_spell1</object>
+    <object>objects\obj_building2UpgrSpec1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>

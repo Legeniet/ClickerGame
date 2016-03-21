@@ -153,6 +153,30 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.building2UpgradeCost</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="0">
       <action>
@@ -377,15 +401,15 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_building2upgrade</object>
+            <object>obj_building2UpgrSpec1</object>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>80</string>
+            <string>96</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>48</string>
+            <string>32</string>
           </argument>
         </arguments>
       </action>
