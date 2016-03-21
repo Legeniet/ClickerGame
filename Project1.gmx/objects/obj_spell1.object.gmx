@@ -347,11 +347,59 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>global.building2prodMP</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>global.building2prodMP/10</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>global.building1prod</string>
           </argument>
           <argument>
             <kind>0</kind>
             <string>global.building1value*global.building1count*global.building1prodMP</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.building2prod</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>global.building2value*global.building2count*global.building2prodMP</string>
           </argument>
         </arguments>
       </action>
@@ -483,11 +531,59 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>global.building2prodMP</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>10*global.building2prodMP</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>global.building1prod</string>
           </argument>
           <argument>
             <kind>0</kind>
             <string>global.building1value*global.building1count*global.building1prodMP</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.building2prod</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>global.building2value*global.building2count*global.building2prodMP</string>
           </argument>
         </arguments>
       </action>
@@ -858,7 +954,7 @@ draw_text_outlined(274, 16, 1, string(timeLeft) + "s", c_white, c_black)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>320</string>
+            <string>319</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -870,7 +966,7 @@ draw_text_outlined(274, 16, 1, string(timeLeft) + "s", c_white, c_black)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>31</string>
+            <string>63</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -914,7 +1010,7 @@ draw_text_outlined(274, 16, 1, string(timeLeft) + "s", c_white, c_black)
         <arguments>
           <argument>
             <kind>2</kind>
-            <string>Increases production of building1 to 1000% for 10 seconds.</string>
+            <string>Increases production of buildings by 1000% for 10 seconds.</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -923,6 +1019,34 @@ draw_text_outlined(274, 16, 1, string(timeLeft) + "s", c_white, c_black)
           <argument>
             <kind>0</kind>
             <string>5</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>514</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_draw_text</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>2</kind>
+            <string>Mana Cost: 100</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>325</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>37</string>
           </argument>
         </arguments>
       </action>
