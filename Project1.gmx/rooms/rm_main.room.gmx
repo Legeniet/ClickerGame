@@ -57,12 +57,8 @@
     <instance objName="obj_building1upgrade" x="63" y="0" name="inst_6FC94D3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_manaBar" x="96" y="672" name="inst_677D2181" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spell1" x="256" y="0" name="inst_9735A879" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-<<<<<<< HEAD
     <instance objName="obj_building2upgrade" x="63" y="32" name="inst_EE571882" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-=======
-    <instance objName="obj_building2upgrade" x="64" y="32" name="inst_EE571882" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_click" x="512" y="288" name="inst_DB75AC58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
->>>>>>> origin/master
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
