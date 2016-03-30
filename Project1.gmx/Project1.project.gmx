@@ -19,6 +19,9 @@
     <sprite>sprites\spr_manaBar</sprite>
     <sprite>sprites\spr_spell1</sprite>
     <sprite>sprites\spr_spell1Grey</sprite>
+    <sprite>sprites\spr_building3</sprite>
+    <sprite>sprites\spr_building4</sprite>
+    <sprite>sprites\sprite15</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_back</background>
